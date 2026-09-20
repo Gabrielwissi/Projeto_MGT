@@ -1,0 +1,25 @@
+# Ambientes Virtuais e Dependências
+.venv/
+
+# Cache do Python e Jupyter Notebooks
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Artefatos do ML Pipeline e Modelos Pesados
+*.joblib
+*.pkl
+*.h5
+*.onnx
+modelos_salvos/
+
+# Configurações do VS Code e Sistema Operacional
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Variáveis de Ambiente e Credenciais (Segurança)
+.env
+*.json
